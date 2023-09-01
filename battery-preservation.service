@@ -1,4 +1,5 @@
-# /etc/systemd/system/battery-preservation.service
+# Place in /etc/systemd/system/battery-preservation.service
+# Enable with command "systemctl enable --now battery-preservation.service"
 [Unit]
 Description=Set the battery charge threshold at boot to prolong battery longevity when connected to AC power for long periods of time
 After=multi-user.target
